@@ -1,0 +1,49 @@
+#loading {
+  display: inline-block;
+  width: 30px;
+  height: 30px;  
+  animation: spin 1s ease-in-out infinite;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  left: calc(50%);
+  top: calc(50%);
+  position: fixed;
+  z-index: 1;
+}
+
+@keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+  to { -webkit-transform: rotate(360deg); }
+}
+
+#loading_title {  
+  left: calc(40%);
+  top: calc(45%);
+  position: fixed;
+}
+
+html, body, #root, .App{
+  height: 100%
+}
+
+#swap-button {
+  /* color: rgb(99, 96, 96); */
+  background-color: rgba(21, 61, 111, 0.44);
+  color: rgb(67, 139, 240);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#account-address {
+  color: rgb(148, 145, 145);
+}
+
+body {
+  background: radial-gradient(150% 100% at 50% 0%, #3E2E38 2%, #2C1F2D 53%, #1F2128 100%);
+}
+
+#card {
+  background-color: rgb(33, 36, 41);
+}
+

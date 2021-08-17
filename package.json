@@ -1,0 +1,17 @@
+{
+  "name": "eth-swap-react",
+  "version": "1.0.0",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.2.0"
+  },
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.1.0"
+  }
+}
