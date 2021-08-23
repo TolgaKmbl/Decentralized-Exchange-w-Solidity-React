@@ -12,8 +12,10 @@ function Navbar() {
 
     let imgIdenticon;
     useEffect(() => {
-        imgIdenticon = new Identicon(accounts, 30).toString(); 
-        setData(imgIdenticon);   
+        if(accounts){
+            imgIdenticon = new Identicon(accounts, 30).toString(); 
+            setData(imgIdenticon); 
+        }
     }, [accounts])
 
     return (
